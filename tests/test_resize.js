@@ -1,4 +1,4 @@
-var lwip = require('lwip');
+var lwip = require('pajk-lwip');
 
 lwip.open("../samples/sample.gif", function (err, img) {
     if(err) throw err;

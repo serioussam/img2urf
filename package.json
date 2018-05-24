@@ -14,11 +14,12 @@
     "mime",
     "format"
   ],
+  "dependencies": {
+    "lwip": "https://github.com/Pajk/lwip#development",
+    "pajk-lwip": "git+https://github.com/Pajk/lwip.git#development"
+  },
   "devDependencies": {
     "ipp": "0.0.8"
-  },
-  "dependencies": {
-    "lwip": "https://github.com/Pajk/lwip#development"
   },
   "author": "Mo Ye <moyerock@gmail.com> (http://www.moye.me/)",
   "license": "MIT"

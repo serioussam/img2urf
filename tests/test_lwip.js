@@ -1,4 +1,4 @@
-var lwip = require("lwip");
+var lwip = require("pajk-lwip");
 var util = require("util");
 var outWrite = function(){
     var args = [].slice.call(arguments);
