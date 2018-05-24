@@ -1,7 +1,7 @@
 {
   "name": "img2urf",
   "version": "0.0.3",
-  "description" : "A lib support that img can be covert to urf.",
+  "description": "A lib support that img can be covert to urf.",
   "main": "index.js",
   "repository": {
     "type": "git",
@@ -14,11 +14,11 @@
     "mime",
     "format"
   ],
-  "devDependencies":{
-     "ipp": "0.0.8"
+  "devDependencies": {
+    "ipp": "0.0.8"
   },
-  "dependencies":{
-    "lwip": "0.0.7"
+  "dependencies": {
+    "lwip": "https://github.com/Pajk/lwip#development"
   },
   "author": "Mo Ye <moyerock@gmail.com> (http://www.moye.me/)",
   "license": "MIT"
