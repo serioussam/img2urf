@@ -15,7 +15,6 @@
     "format"
   ],
   "dependencies": {
-    "lwip": "https://github.com/Pajk/lwip#development",
     "pajk-lwip": "git+https://github.com/Pajk/lwip.git#development"
   },
   "devDependencies": {

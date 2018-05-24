@@ -14,7 +14,7 @@ function print_Urf(fileName, printIp, cb) {
         var msg = {
             "operation-attributes-tag": {
                 "requesting-user-name": "Anonymous",
-                "job-name": "job-222",
+                "job-name": "test-1",
                 "document-format": "image/urf"
             }
             , "job-attributes-tag": {
@@ -34,7 +34,7 @@ function print_Urf(fileName, printIp, cb) {
 
 var src = '../samples/ghost.jpg';
 var dst = '../samples/ghost.urf';
-var printerIp = '192.168.66.10';
+var printerIp = '10.16.0.8';
 
 img2urf.convert(src, dst, function(err){
     if(err) return console.log(err);
